@@ -8,16 +8,24 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-02-20 09:38:18 +0000",
+      "minecraft:flower_forest": "2025-02-23 07:54:17 +0000",
       "minecraft:beach": "2025-02-20 09:37:28 +0000",
       "minecraft:forest": "2025-02-12 06:06:06 +0000",
+      "minecraft:taiga": "2025-02-23 07:58:15 +0000",
       "minecraft:sparse_jungle": "2025-02-12 10:02:49 +0000",
       "minecraft:river": "2025-02-12 06:09:31 +0000",
       "minecraft:stony_shore": "2025-02-20 09:38:08 +0000",
+      "minecraft:snowy_plains": "2025-02-23 08:00:30 +0000",
       "minecraft:dripstone_caves": "2025-02-12 06:05:52 +0000",
+      "minecraft:snowy_taiga": "2025-02-23 07:59:45 +0000",
+      "minecraft:frozen_ocean": "2025-02-23 07:56:39 +0000",
+      "minecraft:frozen_river": "2025-02-23 08:01:08 +0000",
       "minecraft:jungle": "2025-02-12 10:04:53 +0000",
       "minecraft:cherry_grove": "2025-02-12 06:09:51 +0000",
+      "minecraft:sunflower_plains": "2025-02-23 07:53:14 +0000",
       "minecraft:meadow": "2025-02-12 06:07:39 +0000",
       "minecraft:birch_forest": "2025-02-12 10:25:03 +0000",
+      "minecraft:snowy_beach": "2025-02-23 07:59:35 +0000",
       "minecraft:bamboo_jungle": "2025-02-12 10:07:14 +0000",
       "minecraft:windswept_savanna": "2025-02-12 10:07:32 +0000",
       "minecraft:plains": "2025-02-12 06:09:20 +0000"
@@ -341,7 +349,9 @@
       "minecraft:cave_spider": "2025-02-17 08:32:57 +0000",
       "minecraft:skeleton": "2025-02-12 06:44:46 +0000",
       "minecraft:phantom": "2025-02-17 10:21:20 +0000",
+      "minecraft:zombified_piglin": "2025-02-22 12:34:07 +0000",
       "minecraft:enderman": "2025-02-15 09:49:06 +0000",
+      "minecraft:witch": "2025-02-23 07:39:07 +0000",
       "minecraft:spider": "2025-02-12 08:40:31 +0000",
       "minecraft:zombie": "2025-02-12 06:16:07 +0000",
       "minecraft:creeper": "2025-02-12 07:18:08 +0000",
@@ -364,6 +374,7 @@
       "bread": "2025-02-15 09:08:30 +0000",
       "rotten_flesh": "2025-02-12 07:51:54 +0000",
       "cooked_cod": "2025-02-12 06:42:35 +0000",
+      "cooked_beef": "2025-02-22 13:44:02 +0000",
       "baked_potato": "2025-02-17 08:21:13 +0000",
       "cooked_salmon": "2025-02-12 07:33:41 +0000",
       "carrot": "2025-02-12 13:43:55 +0000"
@@ -2639,6 +2650,78 @@
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_cobbled_deepslate_slab": "2025-02-21 07:49:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-02-22 13:46:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-23 07:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-23 07:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-02-23 07:06:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-02-23 07:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-02-23 07:56:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-02-23 08:14:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-02-23 14:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-02-23 14:12:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-02-23 14:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-02-23 14:13:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-02-23 14:13:44 +0000"
     },
     "done": true
   },
